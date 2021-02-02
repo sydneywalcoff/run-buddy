@@ -1,3 +1,14 @@
-# Horiseon - Code Refactor
+# Run Buddy
 
-Updated code for easier readabilty and to use semantic language, meet accessibility standards
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://sydneywalcoff.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by Sydney Walcoff
