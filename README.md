@@ -11,4 +11,8 @@ A website that offers fitness training services.
 https://sydneywalcoff.github.io/run-buddy/
 
 ## Contribution
+<<<<<<< HEAD
 Made with ❤️ by Sydney Walcoff
+=======
+Made with ❤️ by Sydney Walcoff
+>>>>>>> main
