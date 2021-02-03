@@ -40,6 +40,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -74,6 +82,13 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /* hero section */
 
 .hero {
@@ -86,6 +101,8 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: flex-start;
     height: 100%;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero-cta {
@@ -138,6 +155,12 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color:rgba(255,255,255, 0.75);
+}
+
+.form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .hero-form label {
@@ -151,6 +174,10 @@ header nav ul li a {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.hero-form button:hover {
+    background-color: #39a6b2;
 }
 
 /* what we do section */
@@ -174,11 +201,14 @@ header nav ul li a {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 .step-info {
@@ -309,6 +339,13 @@ header nav ul li a {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.8);
+    outline: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -320,6 +357,11 @@ header nav ul li a {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
 }
 
 /* footer */
@@ -366,6 +408,7 @@ footer a {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
