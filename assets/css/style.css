@@ -17,10 +17,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -31,13 +32,6 @@ section {
     border-color: #39a6b2
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 /* header */
 header {
@@ -105,9 +99,6 @@ header nav ul li a {
     color: #fce138;
 }
 
-.hero-cta div {
-    
-}
 
 .hero-form {
     color: #024e76;
@@ -154,9 +145,6 @@ header nav ul li a {
 }
 
 /* what we do section */
-.intro {
-    text-align: center;
-} 
 
 
 .intro p {
@@ -165,11 +153,11 @@ header nav ul li a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* what you do section */
 .steps {
-    text-align: center;
     background:#fce138;
 }
 
@@ -198,9 +186,6 @@ header nav ul li a {
 }
 
 /* meet your trainers */
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     text-align: center;
@@ -241,7 +226,6 @@ header nav ul li a {
 /* reach out section */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2,
@@ -296,4 +280,17 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/* Utility Classes */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
